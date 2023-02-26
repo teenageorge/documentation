@@ -1,7 +1,6 @@
 title: Flatten nested map with custom type as values
 date: 2022-12-26 10:00
 category: Daily-Java
-author: teenamgeorge
 
 #### Context of the problem:
 
