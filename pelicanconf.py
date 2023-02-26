@@ -1,6 +1,6 @@
 from datetime import datetime
 
-AUTHOR = 'teenamgeorge'
+AUTHOR = 'teenageorge'
 SITENAME = 'Articles on Java and Kotlin'
 SITEURL = ''
 SITETITLE = 'Articles on Java and Kotlin'
