@@ -24,7 +24,7 @@ I followed the steps with some modifications because I used a mini breadboard.
 - Python 3 (and signal package),
 - [GPIO Zero](https://gpiozero.readthedocs.io/en/stable/).
 - [Raspberry Pi Imager](https://www.raspberrypi.org/software/)
-- 
+
 #### <span style="color:#ff5f0e">Solution:</span>
 
 ##### <span style="color:#ff5f0e">A few steps to complete before your Raspberry Pi is ready:</span>
