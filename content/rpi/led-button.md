@@ -3,7 +3,7 @@ date: 2023-02-26 10:00
 category: diy-rpi
 
 #### <span style="color:#ff5f0e">Context of the problem:</span>
-As an introduction to Raspberry Pi, I wanted to create a simple project that would turn on and off an LED on a button press.
+To re-introduce myself to electronics, I wanted start from the most basic thing - turn on and off an LED on a button press.
 
 I came across [this article](https://www.makeuseof.com/tag/add-button-raspberry-pi-project/) by Ian Buckley on [MUO - Technology Simplified](https://www.makeuseof.com/) and found this a good starting project.
 I followed the steps with some modifications because I used a mini breadboard.
