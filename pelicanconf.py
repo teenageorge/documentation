@@ -1,9 +1,9 @@
 from datetime import datetime
 
 AUTHOR = 'teenageorge'
-SITENAME = 'Articles on Java and Kotlin'
+SITENAME = 'Articles on programming'
 SITEURL = ''
-SITETITLE = 'Articles on Java and Kotlin'
+SITETITLE = 'Articles on programming'
 SITELOGO = SITEURL + 'images/profile.png'
 FAVICON = 'images/favicon.ico'
 
