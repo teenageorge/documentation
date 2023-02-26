@@ -38,7 +38,7 @@ Once the Raspberry Pi is up and running, get the mini breadboard. These mini bre
 Next steps are easy:
 Note: Since there are no soldering involved, I placed the Raspberry Pi on a tiny piece of styrofoam, so the jumper wires stay in place.
 - Connect one of the 5V pins on the Raspberry Pi to the positive rail of the breadboard. Use a jumper wire. If you do not know the pin numbers, run `pinout` command in the terminal. You will get something similar to this:
-![pinout-pi-zero.png](pinout-pi-zero.png)
+![pinout-pi-zero.png](../images/pinout-pi-zero.png)
 
 - Connect one of the GND (ground) pins on the Raspberry Pi to the negative rail of the breadboard.
 - Place the button in the middle of the mini breadboard. One side of the button is connected to the ground row, and the other side is connected to GPIO pin 16. Make sure the button is connected to the positive rail on both sides - this may not be needed on a full size breadboard.
@@ -66,8 +66,8 @@ pause()
 
 - Run the script using `python3 led-button.py` command.
 - Press the button and the LED should turn off. Release and it will be on.
-  ![led-on](led-on.jpg)
-  ![led-off](press-led-off.jpg)
+  ![led-on](../images/led-on.jpg)
+  ![led-off](../images/press-led-off.jpg)
 
 #### <span style="color:#ff5f0e">References:</span>
 - https://www.makeuseof.com/tag/add-button-raspberry-pi-project/

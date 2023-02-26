@@ -56,4 +56,4 @@ THEME_COLOR_ENABLE_USER_OVERRIDE = True
 USE_LESS = True
 
 THEME = 'theme/Flex'
-STATIC_PATHS = ['images', 'content/rpi']
+STATIC_PATHS = ['images']
