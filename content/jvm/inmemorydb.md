@@ -1,1 +1,0 @@
-# Use in-memory database for compute intensive operations on large data sets and compare performance with Java Streams API
