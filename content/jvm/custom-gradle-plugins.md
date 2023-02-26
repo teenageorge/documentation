@@ -3,7 +3,7 @@ date: 29 Dec, 2022
 tags: Gradle, Spring boot, Kotlin, jOOQ
 category: gradle
 
-#### Context of the problem:
+#### <span style="color:#ff5f0e">Context of the problem:
 Any non-trivial production-ready server-side application has multiple independently deployable components. Some examples are microservices, libraries, and documentation.
 
 For many of these components, all or some of the build logic is similar, hence repeatable. This article explains how to reuse repeatable build logic by building custom Gradle plugins.

@@ -2,7 +2,7 @@ title: Flatten nested map with custom type as values
 date: 2022-12-26 10:00
 category: Daily-Java
 
-#### Context of the problem:
+#### <span style="color:#ff5f0e">Context of the problem:
 
 Last week, there was a feature request to re-create a downloadable CSV file and delete it as soon as the file is downloaded.
 The file can be quite large, so it's not a good idea to store it on disk, even on the `temp` folder of the OS.
@@ -13,7 +13,7 @@ The backend module then passes this content through multiple complex business va
 If any rule is broken, the CSV file must be recreated as-is along with two additional columns - status(OK, NOT_OK) and error message.
 To complicate matters further, the headers are not fixed. They are dynamic and can change from one file to another depending on the data.
 
-#### Solution:
+#### <span style="color:#ff5f0e">Solution:
 
 Today's problem is about recreating a part of the headers from a `Map<String, CustomType>`.
 `CustomType` is a POJO with a single field - a `Map<String, String>`.
@@ -39,7 +39,7 @@ public Map<String, String> getLocalisedOpinions() {
                 ).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (k, v) -> k, LinkedHashMap::new));
     }
 ```
-#### Sample input:
+#### <span style="color:#ff5f0e">Sample input:
 
 ```` json
 {
@@ -63,8 +63,7 @@ public Map<String, String> getLocalisedOpinions() {
     }
 }
 ````
-
-Expected output:
+#### <span style="color:#ff5f0e">Expected output:
 
 ```` json
 {
@@ -80,4 +79,4 @@ Expected output:
 }
 ````
 
-Source code: [daily-problems/flatmap](https://github.com/teenageorge/daily-problems/tree/main/src/main/java/me/teenageorge/daily/flatmapjson)
+<span style="color:#ff5f0e">Source code: [daily-problems/flatmap](https://github.com/teenageorge/daily-problems/tree/main/src/main/java/me/teenageorge/daily/flatmapjson)

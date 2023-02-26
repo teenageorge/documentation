@@ -2,34 +2,34 @@ title: LED on and off on a button press using Raspberry Pi Zero
 date: 2023-02-26 10:00
 category: diy-rpi
 
-#### Context of the problem:
+#### <span style="color:#ff5f0e">Context of the problem:
 As an introduction to Raspberry Pi, I wanted to create a simple project that would turn on and off an LED on a button press.
 
-I found [this article](https://www.makeuseof.com/tag/add-button-raspberry-pi-project/) by Ian Buckley on [MUO](https://www.makeuseof.com/) a good starting project.
+I came across [this article](https://www.makeuseof.com/tag/add-button-raspberry-pi-project/) by Ian Buckley on [MUO - Technology Simplified](https://www.makeuseof.com/) and found this a good starting project.
 I followed the steps with some modifications because I used a mini breadboard.
 
-Hardware components used:
+<span style="color:#ff5f0e">Hardware components used:
 - Raspberry Pi Zero W, 
-- a mini breadboard, 
-- a button, 
+- a mini breadboard,
+- a button,
 - a 220 Ohm resistor,
 - an LED,
 - jumper wires,
 - lastly, a block of styrofoam to keep the jumper wires in place.
 
-Software used:
+<span style="color:#ff5f0e">Software used:
 - Raspbian OS,
-- Python 3,
-- [GPIO Zero](https://gpiozero.readthedocs.io/en/stable/) or [RPi.GPIO](https://pypi.org/project/RPi.GPIO/).
+- Python 3 (and signal package),
+- [GPIO Zero](https://gpiozero.readthedocs.io/en/stable/).
 - [Raspberry Pi Imager](https://www.raspberrypi.org/software/)
 - 
-#### Solution:
+#### <span style="color:#ff5f0e">Solution:
 
-##### Before starting, a few steps to complete before the Raspberry Pi is ready to run the code:
+##### <span style="color:#ff5f0e">A few steps to complete before your Raspberry Pi is ready:
 Raspberry Pi must be connected to a power supply and internet. The power source should be able to provide at least 1 Amp of current. The Raspberry Pi Zero W requires at least 1 Amp of current to run.
 Flash the Raspberry Pi with the latest version of Raspbian OS. Create a user and configure ssh so that you can develop projects on a laptop and connect to Pi in headless mode.
 
-##### Hardware setup:
+##### <span style="color:#ff5f0e">Hardware setup:
 Once the Raspberry Pi is up and running, get the mini breadboard. These mini breadboards do not have a marked power rail. I used the top row of one of the sides as the positive and the other side as negative.
 Next steps are easy:
 Note: Since there are no soldering involved, I placed the Raspberry Pi on a tiny piece of styrofoam, so the jumper wires stay in place.
@@ -41,7 +41,7 @@ Note: Since there are no soldering involved, I placed the Raspberry Pi on a tiny
 - Place the 220 Ohm resistor on the mini breadboard. The resistor is connected between the negative side of the LED and the ground rail.
 Once everything is connected, the LED should be lit up. If not, check the connections.
 
-##### Software setup:
+##### <span style="color:#ff5f0e">Software setup:
 - SSH into the Pi from computer.
 - Create a new directory called `led-button` and create a new file called `led-button.py` in the directory. 
 - Add the following script:
@@ -63,6 +63,5 @@ pause()
   ![led-on](led-on.jpg)
   ![led-off](press-led-off.jpg)
 
-#### References:
+#### <span style="color:#ff5f0e">References:
 - https://www.makeuseof.com/tag/add-button-raspberry-pi-project/
-- 
