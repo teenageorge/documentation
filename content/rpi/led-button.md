@@ -37,6 +37,7 @@ Flash the Raspberry Pi with the latest version of Raspbian OS. Create a user and
 Once the Raspberry Pi is up and running, get the mini breadboard. These mini breadboards do not have a marked power rail. I used the top row of one of the sides as the positive and the other side as negative.
 Next steps are easy:
 Note: Since there are no soldering involved, I placed the Raspberry Pi on a tiny piece of styrofoam, so the jumper wires stay in place.
+
 - Connect one of the 5V pins on the Raspberry Pi to the positive rail of the breadboard. Use a jumper wire. If you do not know the pin numbers, run `pinout` command in the terminal. You will get something similar to this:
 ![pinout-pi-zero.png](../images/pinout-pi-zero.png)
 
