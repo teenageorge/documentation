@@ -8,8 +8,13 @@ Move a couple of sub-projects from one github repository to another non-empty re
 The source repository contains a multi-module Gradle project developed in Java. This project is structured as a modular monolith and has been evolving for over half a decade. Some of these modules are now being split into separate micro services and libraries. Some of these modules will reside on its own separate repositories. This document explains how to move multiple modules along with full commit history from source repository to the target repository. The target repository contains some changes already, so it is not empty.
 
 #### <span style="color:#ff5f0e"> Solution:
-The solution to move single folder is described step by step in an article published by Chuck Boyer: https://boyersnet.com/blog/2021/02/11/moving-a-folder-between-two-git-repos/
-To move multple files or folders, add more `--path` to the `git filter-repo` command. Everything else is as explained in this article by Chuck Boyer.
+
+The solution to move single folder is described step by step in an article published by Chuck Boyer: 
+
+https://boyersnet.com/blog/2021/02/11/moving-a-folder-between-two-git-repos/
+  
+To move multple files or folders, add more `--path` to the `git filter-repo` command. 
+Everything else is as explained in this article by Chuck Boyer.
 
 To move 3 folders and a file: ~/fresh-clone/source%git filter-repo --path module1 --path module2 --path module3 --path file1 --force
 
