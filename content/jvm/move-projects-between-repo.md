@@ -9,9 +9,8 @@ The source repository contains a multi-module Gradle project developed in Java. 
 
 #### <span style="color:#ff5f0e"> Solution:
 
-The solution to move single folder is described step by step in an article published by Chuck Boyer: 
+The solution to move single folder is described step by step in [an article published by Chuck Boyer](https://boyersnet.com/blog/2021/02/11/moving-a-folder-between-two-git-repos/): 
 
-https://boyersnet.com/blog/2021/02/11/moving-a-folder-between-two-git-repos/
   
 To move multple files or folders, add more `--path` to the `git filter-repo` command. 
 Everything else is as explained in this article by Chuck Boyer.
